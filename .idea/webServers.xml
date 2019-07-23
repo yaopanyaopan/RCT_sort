@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9a98f14f-5630-44a6-8b1e-0ae83394e8b3" name="2080" url="http://192.168.122.87">
+        <fileTransfer host="192.168.122.87" port="22" rootFolder="/mnt/wwn-0x5000c500b1638557-part1/panda" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="249c43cb-cbfe-4714-8feb-64a5967e4e82" name="1080" url="http://192.168.122.88">
+        <fileTransfer host="192.168.122.88" port="22" rootFolder="/home/panda/RCT_sort" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
